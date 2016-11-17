@@ -1,0 +1,7 @@
+﻿{
+  "MillisecondsInterval": "4000",
+  "MillisecondsCache": "60000",
+  "deviceName": "TempSM_Device",
+  "deviceKey": "xy55JGSn+9y6+wWPYTe9Yg==",
+  "url": "http://api.openweathermap.org/data/2.5/weather?q=San%20Pedro,Sucre,CO&appid=c7ec1db82f2de3bb4562951a0813822b"
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTGatewayService", "IoTGatewayService\IoTGatewayService.csproj", "{826889A7-96D5-45F4-AEF3-F2354E4EB856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebReaderModule", "WebReaderModule\WebReaderModule.csproj", "{4D428B1E-8DB6-4A01-847F-0E813929BBF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextLoggerModule", "TextLoggerModule\TextLoggerModule.csproj", "{639E5D42-E4E0-416C-8871-563E9F730E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulatedSignals", "SimulatedSignals\SimulatedSignals.csproj", "{71682743-D231-4520-9B9F-4C2586C6CB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherModule", "WeatherModule\WeatherModule.csproj", "{9B4C5F42-E947-4858-8096-F7DC5671BCEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearQueue", "ClearQueue\ClearQueue.csproj", "{F58AC7B5-BA9B-4724-AAE3-5D4624014255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{826889A7-96D5-45F4-AEF3-F2354E4EB856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826889A7-96D5-45F4-AEF3-F2354E4EB856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826889A7-96D5-45F4-AEF3-F2354E4EB856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826889A7-96D5-45F4-AEF3-F2354E4EB856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D428B1E-8DB6-4A01-847F-0E813929BBF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D428B1E-8DB6-4A01-847F-0E813929BBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D428B1E-8DB6-4A01-847F-0E813929BBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D428B1E-8DB6-4A01-847F-0E813929BBF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{639E5D42-E4E0-416C-8871-563E9F730E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{639E5D42-E4E0-416C-8871-563E9F730E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{639E5D42-E4E0-416C-8871-563E9F730E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{639E5D42-E4E0-416C-8871-563E9F730E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71682743-D231-4520-9B9F-4C2586C6CB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71682743-D231-4520-9B9F-4C2586C6CB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71682743-D231-4520-9B9F-4C2586C6CB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71682743-D231-4520-9B9F-4C2586C6CB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B4C5F42-E947-4858-8096-F7DC5671BCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B4C5F42-E947-4858-8096-F7DC5671BCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B4C5F42-E947-4858-8096-F7DC5671BCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B4C5F42-E947-4858-8096-F7DC5671BCEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58AC7B5-BA9B-4724-AAE3-5D4624014255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58AC7B5-BA9B-4724-AAE3-5D4624014255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58AC7B5-BA9B-4724-AAE3-5D4624014255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58AC7B5-BA9B-4724-AAE3-5D4624014255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+	EndGlobalSection
+EndGlobal

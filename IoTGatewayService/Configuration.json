@@ -1,0 +1,55 @@
+{
+  "modules": [
+    {
+      "module name": "text_logger_module",
+      "module path": "C:\\IoT\\Dev\\iot-gateway\\build\\bindings\\dotnet\\Debug\\dotnet_hl.dll",
+      "args": {
+        "dotnet_module_path": "TextLoggerModule",
+        "dotnet_module_entry_class": "TextLoggerModule.TextLogger",
+        "dotnet_module_args": "C:\\temp\\IoTGateway.log"
+      }
+    },
+    {
+      "module name": "web_reader_module",
+      "module path": "C:\\IoT\\Dev\\iot-gateway\\build\\bindings\\dotnet\\Debug\\dotnet_hl.dll",
+      "args": {
+        "dotnet_module_path": "WebReaderModule",
+        "dotnet_module_entry_class": "WebReaderModule.WebReader",
+        "dotnet_module_args": "C:\\IoT\\Dev\\Projects\\IoTGatewayService\\IoTGatewayService\\bin\\Debug\\WebReaderConfig.json"
+      }
+    },
+    {
+      "module name": "weather_module",
+      "module path": "C:\\IoT\\Dev\\iot-gateway\\build\\bindings\\dotnet\\Debug\\dotnet_hl.dll",
+      "args": {
+        "dotnet_module_path": "WeatherModule",
+        "dotnet_module_entry_class": "WeatherModule.Weather",
+        "dotnet_module_args": "C:\\IoT\\Dev\\Projects\\IoTGatewayService\\IoTGatewayService\\bin\\Debug\\WeatherConfig.json"
+      }
+    },
+    {
+      "module name": "IotHub",
+      "module path": "C:\\IoT\\Dev\\iot-gateway\\build\\modules\\iothub\\Debug\\iothub_hl.dll",
+      "args": {
+        "IoTHubName": "PacificPruebas",
+        "IoTHubSuffix": "azure-devices.net",
+        "Transport": "HTTP"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "*",
+      "sink": "text_logger_module"
+    },
+    {
+      "source": "web_reader_module",
+      "sink": "IotHub"
+    },
+    {
+      "source": "weather_module",
+      "sink": "IotHub"
+    }
+  ]
+}
+

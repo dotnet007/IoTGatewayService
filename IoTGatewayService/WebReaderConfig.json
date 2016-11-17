@@ -1,0 +1,41 @@
+﻿{
+  "MillisecondsInterval": "4000",
+  "signals": [
+    {
+      "name": "dewpoint",
+      "url": "https://localhost:44335/api/dewpoint",
+      "tags": "Timestamp,Value",
+      "user": "user",
+      "password": "EncryptedPassword",
+      "deviceName": "dewpoint_Device",
+      "deviceKey": "2ROZn/i7mYbNlTAmXTrBmA=="
+    },
+    {
+      "name": "pit709",
+      "url": "https://localhost:44335/api/pit709",
+      "tags": "Timestamp,Value",
+      "user": "user",
+      "password": "EncryptedPassword",
+      "deviceName": "pit709_Device",
+      "deviceKey": "/zmIgNhO0bkxlWWm/DgluQ=="
+    },
+    {
+      "name": "pzit734",
+      "url": "https://localhost:44335/api/pzit734",
+      "tags": "Timestamp,Value",
+      "user": "user",
+      "password": "EncryptedPassword",
+      "deviceName": "pzit734_Device",
+      "deviceKey": "8CFRgOgBNrMhXDS3zIu+xA=="
+    },
+    {
+      "name": "tit735",
+      "url": "https://localhost:44335/api/tit735",
+      "tags": "Timestamp,Value",
+      "user": "user",
+      "password": "EncryptedPassword",
+      "deviceName": "tit735_Device",
+      "deviceKey": "eRZJZqCqgIuKO+Vkdk5W9Q=="
+    }
+  ]
+}
